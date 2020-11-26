@@ -6,6 +6,10 @@ conda 环境下的qgis 编译
 缺点：python是3.7.0版本，拓展不易。在该环境下不能支持python-pdal 环境。
 方式2：使用conda-qgis进行编译
 
-conda install -c conda-forge qgis
+（1）conda install -c conda-forge qgis=3.14.16
+     conda会完成qt、qgis等各类库的安装，安装路径位于 miniconda\Library
+     检查 miniconda\sip 文件是否安装，如果安装没有问题  miniconda\sip\PyQt5\sci\**.sip 文件 
+ (2) 使用cmake 对qigs源文件生成 vs-2017的工程文件。
+     选择：with-bindings、3D 、Core 、 Analysi 、 processing 等，不要选择 complile with python 和 staged plugins
 
 
