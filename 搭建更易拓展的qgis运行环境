@@ -11,5 +11,6 @@ conda 环境下的qgis 编译
      检查 miniconda\sip 文件是否安装，如果安装没有问题  miniconda\sip\PyQt5\sci\**.sip 文件 
  (2) 使用cmake 对qigs源文件生成 vs-2017的工程文件。
      选择：with-bindings、3D 、Core 、 Analysi 、 processing 等，不要选择 complile with python 和 staged plugins
+ （3） 编译和安装pdal 
 
 
