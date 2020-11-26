@@ -1,0 +1,11 @@
+conda 环境下的qgis 编译
+环境：vs2017 osgeo-64bit 
+
+步骤：
+方式1：使用 osgeo4w-setup.exe 完成qgis 运行环境的安装。之后，会在安装目录安装qgis运行所必需的的gdal、prj、zip、python、Qt等各种库和头文件。
+缺点：python是3.7.0版本，拓展不易。在该环境下不能支持python-pdal 环境。
+方式2：使用conda-qgis进行编译
+
+conda install -c conda-forge qgis
+
+
