@@ -4,3 +4,6 @@
    添加定义的各类算法类。
   addAlgorithm(new QgsPointCloudGeoRefWithSbetAlgorithm());
   addAlgorithm(new QgsPointCloudIcpFilterAlgorithm());
+  
+   图标修改：
+   providerQgis.svg
