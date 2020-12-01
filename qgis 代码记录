@@ -1,0 +1,5 @@
+ 工具箱：
+   qgsnativealgorithms.cpp：QgsNativeAlgorithms
+   添加定义的各类算法类。
+  addAlgorithm(new QgsPointCloudGeoRefWithSbetAlgorithm());
+  addAlgorithm(new QgsPointCloudIcpFilterAlgorithm());
