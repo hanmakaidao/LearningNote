@@ -1,4 +1,5 @@
  工具箱：
+ analysis 项目中：
    qgsnativealgorithms.cpp：QgsNativeAlgorithms
    添加定义的各类算法类。
   addAlgorithm(new QgsPointCloudGeoRefWithSbetAlgorithm());
