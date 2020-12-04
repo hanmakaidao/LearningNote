@@ -14,3 +14,7 @@ conda 环境下的qgis 编译
  （3） 编译和安装pdal 
 
 
+编译选项：
+cmakefilelist的编写
+
+  add_compile_options("/bigobj") 添加编译选项
