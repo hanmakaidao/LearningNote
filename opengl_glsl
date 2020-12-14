@@ -1,3 +1,4 @@
- 三维显示软件：https://gitlab.kitware.com/paraview/paraview
+ 三维显示软件：
     资源：图标、EDL代码、VTKshader等
-    
+    https://gitlab.kitware.com/paraview/paraview
+    http://people.csail.mit.edu/patmarion/software/director/docs/doxygen_docs/edl__shade_8glsl_source.html
