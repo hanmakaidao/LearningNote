@@ -8,3 +8,6 @@
    图标修改：
    providerQgis.svg
    qrc_images_CMAKE_.cpp
+   
+   Native 模块：Native.cpp
+    增加 #include<shellapi.h>
